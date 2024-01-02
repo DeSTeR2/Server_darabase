@@ -5,6 +5,7 @@
 #include <WinSock2.h>
 #include <string>
 #include "Server.h"
+#include "Server.h"
 
 using namespace std;
 
@@ -17,18 +18,13 @@ int main()
 	m1_Server server(1);
 	server.start();
 
-	string messages[3] = {
-		"<html>Hello Word 1</html>",
-		"<html>Hello Word 2</html>",
-		"<html>Hello Word 3</html>"
-	};
+	
 
-	int counter = 0;
+	server.createClient();
+	server.createClient();
+	server.createClient();
+	server.createClient();
 
-	while (true) {
-		counter %= 3;
-		server.sentMessage(messages[counter]);
-		counter++;
-	}
+	server.sentAllClients();
 }
 

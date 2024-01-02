@@ -1,4 +1,4 @@
 ﻿  main.cpp
-D:\Codes\C++\Server_database\Server_darabase\server\server\Server.h(79,76): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\Codes\C++\Server_database\Server_darabase\server\server\Server.h(56): warning C4715: 'm1_Server::start': not all control paths return a value
+D:\Codes\C++\Server_database\Server_darabase\server\server\v_Client.h(55,16): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\Codes\C++\Server_database\Server_darabase\server\server\Server.h(90,76): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   server.vcxproj -> D:\Codes\C++\Server_database\Server_darabase\server\x64\Debug\server.exe
