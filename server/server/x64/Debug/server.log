@@ -1,0 +1,3 @@
+﻿  server.cpp
+D:\Codes\C++\Server_database\Server_darabase\server\server\server.cpp(73,75): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  server.vcxproj -> D:\Codes\C++\Server_database\Server_darabase\server\x64\Debug\server.exe
